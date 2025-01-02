@@ -11,7 +11,7 @@ This is a simple website for a police department, built using Python and Flask.
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Police-Department-Website.git
+   git clone https://github.com/mrbunnycrypto/Police-Department-Website.git
    ```
 #### directory file
 
