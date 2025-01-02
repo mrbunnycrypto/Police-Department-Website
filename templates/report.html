@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report a Crime</title>
+</head>
+<body>
+    <header>
+        <h1>Report a Crime</h1>
+    </header>
+    <main>
+        <form action="/submit_report" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="details">Crime Details:</label><br>
+            <textarea id="details" name="details" rows="5" required></textarea><br><br>
+
+            <button type="submit">Submit Report</button>
+        </form>
+    </main>
+    <footer>
+        <a href="/">Back to Home</a>
+    </footer>
+</body>
+</html>
